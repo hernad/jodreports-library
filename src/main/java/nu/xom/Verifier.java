@@ -70,7 +70,7 @@ final class Verifier {
 
     private static void loadFlags(ClassLoader loader) {
 
-        /*
+/*
         DataInputStream in = null;
         try {
             InputStream raw = loader.getResourceAsStream("nu/xom/characters.dat");
@@ -95,7 +95,8 @@ final class Verifier {
                 // no big deal
             }
         }
-        */
+
+*/
 
     }
 
@@ -114,6 +115,7 @@ final class Verifier {
      */
     static void checkNCName(String name) {
 
+        /*
         if (name == null) {
             throwIllegalNameException(name, "NCNames cannot be null");
         }
@@ -141,6 +143,7 @@ final class Verifier {
                 }
             }
         }
+        */
 
     }
 
