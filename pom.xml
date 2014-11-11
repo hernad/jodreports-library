@@ -9,7 +9,7 @@
 
   <groupId>org.jodreports</groupId>
   <artifactId>jodreports-library</artifactId>
-  <version>3.0.1-SNAPSHOT</version>
+  <version>3.0.2</version>
 
   <name>JODReports :: Library</name>
   <description>JODReports generates dynamic documents and reports based on the OpenDocument Format and FreeMarker.</description>
@@ -71,25 +71,6 @@
       <version>2.3.16</version>
     </dependency>
     <dependency>
-      <groupId>xom</groupId>
-      <artifactId>xom</artifactId>
-      <version>1.2.5</version>
-      <exclusions>
-        <exclusion>
-          <groupId>xalan</groupId>
-          <artifactId>xalan</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>xerces</groupId>
-          <artifactId>xercesImpl</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>xml-apis</groupId>
-          <artifactId>xml-apis</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <scope>test</scope>
@@ -100,7 +81,34 @@
       <version>1.6.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+	     <groupId>xml-apis</groupId>
+	     <artifactId>xml-apis</artifactId>
+	     <version>2.0.2</version>
+    </dependency>
+
+    <dependency>
+	    <groupId>org.bluestemsoftware.open.maven.tparty</groupId>
+	    <artifactId>xerces-impl</artifactId>
+	    <version>2.9.0</version>
+    </dependency>
+
+
+<dependency>
+	<groupId>xalan</groupId>
+	<artifactId>xalan</artifactId>
+	<version>2.5.1</version>
+</dependency>
+
+<dependency>
+	<groupId>jaxen</groupId>
+	<artifactId>jaxen</artifactId>
+	<version>1.1.6</version>
+</dependency>
+
   </dependencies>
+
+
 
   <scm>
     <url>https://github.com/jodreports</url>
